@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     font-family: 'Montserrat', sans-serif;
+}
+
+
+.sidebar{
+     width: 240px;
+     background: #183153;
+     height: 100vh;
+     box-sizing: border-box;
+     position: fixed;
+     z-index: 10;
+}
+
+.sidebar .logo{
+
+     padding: 10px 20px 0 20px;
+
+ 
+
+}
+
+.sidebar .logo a{
+  
+     text-decoration: none;
+     display: flex;
+     align-items: center;
+     justify-items: center;
+     
+
+
+}
+
+.sidebar .logo i:hover{
+     color: darkcyan;
+}
+
+
+.sidebar .logo i{
+
+     padding: 5px;
+     font-size: 45px;
+     color: white;
+     transition: .3s;
+
+}
+
+
+.sidebar .hr{
+     border: 0;
+     height: 1px;
+     background: #333;
+     background-image: linear-gradient(to right, #ccc, white, #ccc);
+}
+.sidebar .logo .nama_logo{
+     text-decoration: none;
+     color: white;
+     font-size: 25px;
+     padding: 5px;
+     font-weight: 800;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+}
+
+.menu_sidebar{
+
+     padding-top: 10px;
+     padding-bottom: 10px;
+     box-sizing: border-box;
+}
+
+.menu_sidebar .nav_link{
+
+     list-style: none;
+     padding-left: -30px;
+
+
+}
+
+
+
+.menu_sidebar .nav_link a{
+     display: flex;
+     align-items: center;
+     text-decoration: none;
+     color: #F0F1F3;
+     /* background: #000; */
+     padding: 5px 0 5px 0;
+     transition: all .3s ease;
+
+    
+}
+
+.menu_sidebar .nav_link a:hover{
+     background: #2B795D;
+     
+}
+.menu_sidebar .nav_link i{
+     font-size: 28px;
+     padding: 5px;
+     padding-left: 33px;
+     
+}
+
+.menu_sidebar .nav_link .link_nama{
+     padding-left: 10px;
+}
+
+.menu_sidebar .nav_link a:hover{
+     color: white;
+}
+
+
+/* main content */
+
+.main_content{
+     position: relative;
+     /* min-height: 100vh; */
+     width: calc(100% - 240px);
+     left: 240px;
+
+    
+}
+
+/* navbar */
+
+
+.main_content .navbar  {
+     /* background: #000; */
+     position: fixed;
+    width: calc(100% - 240px);
+    left: 240px;
+     height: 82px;
+     display: flex;
+     align-items: center;
+     border-bottom: 2px solid #183153;
+     background: white;
+     z-index: 1;
+}
+
+.main_content .navbar .halaman{
+   
+     padding: 5px;
+
+     font-size: 18px;
+     font-weight: 700;
+     letter-spacing: 2px;
+}
+
+
+.main_content .navbar .user{
+     display: flex;
+     height: 50px;
+     min-width: 195px;
+     background: var(--searchbox-profile-bg);
+     border-radius: 6px;
+     border:  2px solid #EFEEF1;
+     align-items: center;
+     padding: 0 15px 0 2px;
+     margin-left:auto;
+     
+     
+     
+     
+}
+
+.main_content .navbar img{
+     height: 40px;
+     width: 40px;
+     object-fit: cover;
+     border-radius: 6px;
+    
+
+}
+
+.main_content .navbar .nama_user{
+     font-size: 14px;
+     font-weight: 500;
+     margin: 0 5px 0 10px;
+     white-space: nowrap;
+}
+
+.main_content .navbar i{
+     font-size: 18px;
+     font-weight: 700;
+     
+}
+
+.main_content .content{
+     position: relative;
+     padding-top: 120px;
+     padding-left: 30px;
+     padding-right: 20px;
+     padding-bottom: 20px;
+     /* height: 100vh; */
+
+    
+}
+
+.main_content .content .judul_content{
+     font-size: 24px;
+     font-weight: 700;
+     padding-left: 10px;
+     text-transform: capitalize;
+}
+
+.main_content .content .isi_content{
+     background: #E5E5E5;
+     margin-top: 30px;
+     padding: 10px;
+     z-index: 10;
+     
+}
+
+
+
+/* Table */
+
